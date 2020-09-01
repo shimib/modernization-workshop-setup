@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "issues": {
+    "serverID": "rt-server",
+    "trackerName": "JIRA",
+    "regexp": "(.+-[0-9]+)\\s-\\s(.+)",
+    "keyGroupIndex": 1,
+    "summaryGroupIndex": 2,
+    "trackerUrl": "https://www.jfrog.com/jira/projects/SOLENG/issues",
+    "aggregate": "true",
+    "aggregationStatus": "RELEASED"
+  }
+}
