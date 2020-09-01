@@ -1,0 +1,12 @@
+resources:
+  - name: demo_gitRepo
+    type: GitRepo
+    configuration:
+      path: shimib/modernization-workshop-setup
+      gitProvider: Github_demo
+  - name: PypiBuildInfo
+    type: BuildInfo
+    configuration:
+      sourceArtifactory: Artifactory
+      buildName: my-pip-build
+      buildNumber: 2
